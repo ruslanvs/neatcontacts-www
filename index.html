@@ -7,40 +7,68 @@
     <meta name="color-scheme" content="dark light">
     <title>NeatContacts</title>
     <style>
-        html {
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .centered {
-            text-align: center;
-        }
-
         @media only screen and (min-width: 415px) {
             h1 {
                 padding-top: 10px;
             }
         }
+
+        body,
+        html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .centered {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            height: calc(100% - 60px);
+        }
+
+        .footer {
+            color: ButtonText;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .footer a {
+            color: ButtonText;
+            padding: 0 10px;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
     </style>
 </head>
 
 <body>
-    <h1 class="centered">
-        NeatContacts
-    </h1>
     <div class="centered">
+        <h1>
+            NeatContacts
+        </h1>
         <a href="https://www.apple.com/app-store/">
             <img src="assets/apple/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
                 alt="Description of the SVG">
         </a>
     </div>
-
+    <hr>
+    <small class="footer">
+        Copyright © 2023 Contactbook Inc. All rights reserved.
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a>
+    </small>
 </body>
 
 </html>
