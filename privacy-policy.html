@@ -7,26 +7,53 @@
     <meta name="color-scheme" content="dark light">
     <title>Privacy Policy</title>
     <style>
-        @media only screen and (min-width: 415px) {
-            h1 {
-                padding-top: 10px;
-            }
-        }
-
         body,
         html {
+            margin: 0;
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+
+        header {
+            background-color: rgba(0, 0, 0, 0.89);
+            /* margin: 16; */
+
+            /* Making it sticky */
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            /* min-height: 40px; */
+        }
+
+        .header {
+            max-width: 800px;
+            width: 100%;
+            padding: 8px;
+
+            /* Centers the element */
+            margin: 0 auto;
         }
 
         .content {
             max-width: 800px;
             margin: 0 auto;
+            padding: 8px;
         }
     </style>
 </head>
 
 <body>
+    <header>
+        <div class="header">
+            <small>
+                <a href="/">
+                    <img src="/assets/icons/favicon-32x32.png" alt="NeatContacts icon">
+                </a>
+            </small>
+        </div>
+    </header>
     <div class="content">
+
         <h1>Privacy Policy</h1>
 
         <p><strong>Last Updated:</strong> October 24, 2023</p>
