@@ -8,6 +8,12 @@
     <title>NeatContacts</title>
     <style>
         @media only screen and (min-width: 481px) {
+
+            body,
+            html {
+                margin: 0;
+            }
+
             .footer {
                 text-align: center;
             }
@@ -15,15 +21,29 @@
 
         body,
         html {
-            margin: 0;
             height: 100%;
             font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: CanvasText;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
         }
 
         .flex-container {
             display: flex;
             flex-direction: column;
             height: 100%;
+        }
+
+        header {
+            text-align: center;
+            position: sticky;
+            z-index: 1000;
         }
 
         .center {
@@ -39,19 +59,22 @@
             color: CanvasText;
         }
 
-        a {
-            color: CanvasText;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
+        /* .max-width-800 {
+            max-width: 800;
+        } */
     </style>
 </head>
 
 <body>
     <div class="flex-container">
+        <header class="max-width-800">
+            <small>
+                <a href="/">
+                    <img src="/assets/icons/favicon-32x32.png" alt="NeatContacts icon">
+                </a>
+            </small>
+            <hr>
+        </header>
         <div class="center">
             <h1>
                 NeatContacts
