@@ -9,10 +9,6 @@
     <style>
         @media only screen and (min-width: 481px) {
 
-            body,
-            html {
-                margin: 0;
-            }
 
             .footer {
                 text-align: center;
@@ -41,9 +37,16 @@
         }
 
         header {
-            text-align: center;
             position: sticky;
             z-index: 1000;
+        }
+
+        .header {
+            width: 100%;
+            max-width: 800px;
+
+            /* Centers the element */
+            margin: 0 auto;
         }
 
         .center {
@@ -58,22 +61,19 @@
             min-height: 60px;
             color: CanvasText;
         }
-
-        /* .max-width-800 {
-            max-width: 800;
-        } */
     </style>
 </head>
 
 <body>
     <div class="flex-container">
-        <header class="max-width-800">
-            <small>
-                <a href="/">
-                    <img src="/assets/icons/favicon-32x32.png" alt="NeatContacts icon">
-                </a>
-            </small>
-            <hr>
+        <header>
+            <div class="header">
+                <small>
+                    <a href="/">
+                        <img src="/assets/icons/favicon-32x32.png" alt="NeatContacts icon">
+                    </a>
+                </small>
+            </div>
         </header>
         <div class="center">
             <h1>
