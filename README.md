@@ -2,5 +2,5 @@
 
 ## Metadata Files
 
-- File: apple-app-site-association
+- File: /.well-known/apple-app-site-association
   - <https://developer.apple.com/documentation/xcode/supporting-associated-domains>
