@@ -1,0 +1,22 @@
+{
+    "applinks": {
+        "details": [
+            {
+                "appIDs": [
+                    "4LCWFZ2JA9.com.neatcontacts.NeatContacts"
+                ],
+                "components": [
+                    {
+                        "/": "/contacts/*",
+                        "comment": "Matches any URL with a path that starts with /contacts/. For more options see https://developer.apple.com/documentation/xcode/supporting-associated-domains."
+                    }
+                ]
+            }
+        ]
+    },
+    "appclips": {
+        "apps": [
+            "4LCWFZ2JA9.com.neatcontacts.NeatContacts.Clip"
+        ]
+    }
+}
