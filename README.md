@@ -1,5 +1,13 @@
 # NeatContacts Static Website
 
+## Serving Locally
+
+```shell
+python3 -m http.server 9090
+http://localhost:9090
+http://localhost:9090/contacts/
+```
+
 ## Deployment
 
 <https://developers.cloudflare.com/pages/framework-guides/deploy-anything/>
