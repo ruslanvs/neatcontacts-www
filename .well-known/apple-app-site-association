@@ -9,6 +9,10 @@
                     {
                         "/": "/contacts/*",
                         "comment": "Matches any URL with a path that starts with /contacts/. For more options see https://developer.apple.com/documentation/xcode/supporting-associated-domains."
+                    },
+                    {
+                        "/": "*",
+                        "comment": "Matches any URL. For more options see https://developer.apple.com/documentation/xcode/supporting-associated-domains."
                     }
                 ]
             }
