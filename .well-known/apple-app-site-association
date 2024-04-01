@@ -5,6 +5,9 @@
                 "appIDs": [
                     "4LCWFZ2JA9.com.neatcontacts.NeatContacts"
                 ],
+                "paths": [
+                    "*"
+                ],
                 "components": [
                     {
                         "/": "/contacts/*",
